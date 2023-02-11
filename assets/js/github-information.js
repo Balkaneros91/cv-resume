@@ -36,6 +36,8 @@ function repoInformationHTML(repos) {
             </div>`;
 }
 
+// First function created
+
 function fetchGitHubInformation(event) {
     $("#gh-user-data").html("");
     $("#gh-repo-data").html("");
